@@ -1,0 +1,345 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Playfair Display", serif;
+
+}
+
+
+.navbar{
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: rgb(129, 175, 227);
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    border-radius: 7px;
+}
+
+.icon{
+    position: relative;
+    font-size: 1.2em;
+}
+
+#count{
+    display: inline-block;
+    position: absolute;
+    top: -4px;
+    padding: 0px 5px;
+    padding-top: 0px;
+    font-size: 1.3em;
+    background-color: bisque;
+    border-radius: 50%;
+
+}
+
+
+.pro{
+    font-size: 1.4em;
+    margin-left: 3em;
+    margin-top: 0.4em;
+}
+
+.abc:hover{
+color: rgb(214, 169, 72);
+}
+
+.home{
+  font-size: 1.7em;
+}
+
+
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    background-color: rgb(232, 209, 175);
+    min-height: 100vh;
+    border-radius: 10px;
+    width: 100%;
+    padding: 2em; 
+
+
+}
+
+.head{
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.buttn{
+    width: 143px;
+    height: 42px;
+    background-color: rgb(0, 255, 255);
+    border: 2px solid rgb(40, 39, 39);
+    font-weight: bold;
+}
+
+.bookimg{
+    display: flex;
+    justify-content: center;
+    gap: 1.3em;
+    flex-wrap: wrap;
+}
+
+.imgg{
+    margin-top: 1.6em;
+    height: 212px;
+    width: 150px;
+    transition: 1s ease;
+    border-radius: 5px;
+
+}
+
+.wid{
+    height: 244px;
+    width: 160px;
+}
+
+.imgg:hover{
+    border: 2px solid rgb(4, 4, 4);
+    transform: scale(1.1);
+}
+
+.imgbox{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.britishcouncil.pk/sites/default/files/pakistan-libraries-are-back-1024x683.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    color: black;
+    padding-top: 8em;
+    flex-wrap: wrap;
+}
+
+.parentbox{
+    background-color: rgb(232, 209, 175);
+    padding-top: 2em;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    gap: 1em;
+    flex-wrap: wrap;
+    
+}
+
+.child{
+    height: 340px;
+    width: 300px;
+    background-color: rgba(165, 165, 175, 0.411);
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.child:hover{
+    background-color: rgb(26, 121, 70);
+}
+
+.childimg{
+    height: 260px;
+    width: 83%;
+    border-radius: 20px;
+    padding-top: 1em;
+    flex-wrap: wrap;
+
+  
+}
+
+.child:hover{
+    scale: 0.9; 
+}
+
+.headdiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ton{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.ton:hover{
+    background-color: #1e61a8;
+    border: 1px solid black;
+}
+
+
+.contbox{
+  background-image: url(https://img.freepik.com/premium-photo/young-woman-standing-bookstore-japan-surrounded-by-bookshelves_1282444-48130.jpg?semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-size: cover;
+border-radius: 8px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+ .contentbox{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 2em;
+ }
+
+.embox{
+    height: 330px;
+    width: 600px;
+    background-color: rgb(112, 192, 216);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ 
+  
+}
+
+.inpt{
+    margin-top: 5em;
+    width: 368px;
+    height: 34px;
+    text-indent: 0.6em;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+
+.inpt:hover{
+    border: 2px solid palevioletred;
+}
+
+.buttnn{
+    width: 140px;
+    height: 45px;
+    background-color: rgb(94, 93, 95);
+    border-radius: 2px;
+    margin-top: 2em;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.buttnn:hover{
+background-color: #da2228;
+border: 2px solid black;
+
+}
+
+.paraa{
+    margin-top: 2em;
+    color: #0c0c0c;
+}
+
+
+/* foooter */
+
+.footermain{
+    background-color: #0c0c0c;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    padding: 2em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+
+.iconbox{
+   display: flex;
+   justify-content: center;
+   gap: 2em;
+   flex-wrap: wrap;
+   margin-top: 2em;
+}
+
+.icon01{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.9em;
+    padding-top: 0.1em;
+  
+
+}
+
+.icon01:hover{
+background-color: red;
+}
+
+.blue:hover{
+    background-color: #0081bc;
+}
+
+.blue1:hover{
+    background-color: #1e61a8;
+}
+
+
+.pink:hover{
+background-color: palevioletred;
+}
+
+
+
+/* 
+.heading:hover{
+color: red;
+} */
+
+.linbox{
+    background-color: #1e61a8;
+    padding: 0.7em;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media(max-width:430px){
+    .inpt{
+        width: 200px;
+    }
+
+    .child{
+        width: 200px;
+        height: 260px;
+    }
+
+    .childimg{
+        height: 180px;
+    }
+}
